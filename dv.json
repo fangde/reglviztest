@@ -1,0 +1,12 @@
+{
+"frag":"\n  precision mediump float;\n  uniform vec4 color;\n  void main () {\n    gl_FragColor = color;\n  }",
+
+"vert":"\n  precision mediump float;\n  attribute vec2 position;\n  void main () {\n    gl_Position = vec4(position, 0, 1);\n  }",
+
+"attributes":{"position":[[-1,0],[0,-1],[1,1]]},
+
+"uniforms":{"color":[1,0,0,1]},
+
+"count":3
+}
+

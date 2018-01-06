@@ -1,0 +1,11 @@
+{
+  "name": "viz_regl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mytest.js",
+  "scripts": {
+    "start": "budo mytest.js --open --live"
+  },
+  "author": "",
+  "license": "ISC"
+}
